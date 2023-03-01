@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E249F02029AFE53D0055EEDF /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E249F01F29AFE53D0055EEDF /* SquareView.swift */; };
+		E249F02229AFE5810055EEDF /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E249F02129AFE5810055EEDF /* TicTacToeModel.swift */; };
 		E2BD8BF829AFCA6000F7C50E /* TicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BD8BF729AFCA6000F7C50E /* TicTacToeApp.swift */; };
 		E2BD8BFA29AFCA6000F7C50E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BD8BF929AFCA6000F7C50E /* ContentView.swift */; };
 		E2BD8BFC29AFCA6300F7C50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BD8BFB29AFCA6300F7C50E /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E249F01F29AFE53D0055EEDF /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		E249F02129AFE5810055EEDF /* TicTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeModel.swift; sourceTree = "<group>"; };
 		E2BD8BF429AFCA6000F7C50E /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BD8BF729AFCA6000F7C50E /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		E2BD8BF929AFCA6000F7C50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				E2BD8BF729AFCA6000F7C50E /* TicTacToeApp.swift */,
 				E2BD8BF929AFCA6000F7C50E /* ContentView.swift */,
+				E249F01F29AFE53D0055EEDF /* SquareView.swift */,
+				E249F02129AFE5810055EEDF /* TicTacToeModel.swift */,
 				E2BD8BFB29AFCA6300F7C50E /* Assets.xcassets */,
 				E2BD8BFD29AFCA6300F7C50E /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E249F02229AFE5810055EEDF /* TicTacToeModel.swift in Sources */,
+				E249F02029AFE53D0055EEDF /* SquareView.swift in Sources */,
 				E2BD8BFA29AFCA6000F7C50E /* ContentView.swift in Sources */,
 				E2BD8BF829AFCA6000F7C50E /* TicTacToeApp.swift in Sources */,
 			);
